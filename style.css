@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url("./images/pattern-background-desktop.svg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Red Hat Display";
+}
+
+.content{
+    width: 400px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+
+.content .img img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.content .inner-content{
+    text-align: center;
+}
+
+.content .inner-content h2{
+    margin-top: 40px;
+    color: hsl(223, 47%, 23%);
+}
+
+.content .inner-content > p{
+    font-size: 13px;
+    width: 250px;
+    color: hsl(224, 23%, 55%);
+    margin: 20px auto;
+}
+
+
+.content .inner-content .plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.content .inner-content .salary{
+    display: flex;
+}
+
+.content .inner-content .salary img{
+    margin-right: 20px;
+}
+
+.content .inner-content .salary h5{
+    color: hsl(223, 47%, 23%);
+}
+
+.content .inner-content .salary p{
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+.content .inner-content .plan a{
+    font-size: 13px;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+}
+
+.content .inner-content .plan a:hover{
+    color: hsl(245, 47%, 62%);
+    
+}
+
+.content .inner-content button{
+    margin-top: 50px;
+    display: inline-block;
+    width: 75%;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.content .inner-content button:hover{
+    background-color: hsl(245, 47%, 62%);
+}
+
+
+.bold{
+    font-weight: bold;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.bold:hover{
+    color: hsl(223, 47%, 23%) !important;
+}
+
+
+
+@media(max-width:435px){
+    .content{
+        width: 300px;
+    }
+}
+
+@media(max-width:325px){
+    .content{
+        width: 250px;
+    }
+}
